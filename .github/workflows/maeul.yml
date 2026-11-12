@@ -19,6 +19,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Remove header and collection panel, crop to timeline
+        run: python3 .github/scripts/maeul-crop.py maeul-in-the-sky-dark.svg maeul-in-the-sky-light.svg
+
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update maeul-in-the-sky terrain"
