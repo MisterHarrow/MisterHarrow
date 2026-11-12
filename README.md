@@ -1,7 +1,7 @@
 # Hi, I'm MisterHarrow 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./maeul-in-the-sky-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./maeul-in-the-sky-light.svg" />
-  <img alt="MisterHarrow's GitHub contribution village" src="./maeul-in-the-sky-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./github-snake.svg" />
+  <img alt="Snake eating MisterHarrow's GitHub contribution grid" src="./github-snake.svg" width="100%" />
 </picture>
